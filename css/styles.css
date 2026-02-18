@@ -1429,3 +1429,34 @@ footer{
     	margin-right: 30px;
     }
 }
+/* --- Disable gallery hover overlay + link icon --- */
+
+.team-members .member .inner-details,
+
+.team-members .member .member-details,
+
+.team-members .member .member-details-inner {
+
+  display: none !important;
+
+}
+
+
+.team-members .member a.team-image:before,
+
+.team-members .member a.team-image:after,
+
+.team-members .member .team-image i,
+
+.team-members .member .team-image .fa,
+
+.team-members .member .team-image .icon {
+
+  display: none !important;
+
+}
+
+
+.team-members .member a.team-image {
+
+  cursor: pointer !important;
